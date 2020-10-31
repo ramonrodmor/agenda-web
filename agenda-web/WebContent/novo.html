@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div align="center">
+		<img src="img/images.png" />
+		<h1>Cadastro de Contatos</h1>
+		<hr />
+		<table>
+			<tr>
+				<td><a href="http://localhost:8080/agenda-ramon/">Início</a></td>
+				<td><a href="http://localhost:8080/agenda-ramon/novo.html">Novo</a></td>
+				<td><a href="http://localhost:8080/agenda-ramon/lista.jsp">Lista
+						de contatos</a></td>
+			</tr>
+		</table>
+		<hr />
+	</div>
+
+	<div align="center">
+		Os campos em negrito são obrigatórios.
+		<form action="adicionaContato" method="post">
+			<table>
+				<tr>
+					<td><b>Nome: </b></td>
+					<td><input type="text" name="nome" /><br /></td>
+				</tr>
+
+				<tr>
+					<td>E-mail:</td>
+					<td><input type="text" name="email" /><br /></td>
+				</tr>
+
+				<tr>
+					<td><b>Endereço: </b></td>
+					<td><input type="text" name="endereco" /><br /></td>
+				</tr>
+
+				<tr>
+					<td>Data de Nascimento: (dd/mm/aaaa)</td>
+					<td><input type="text" name="dataNascimento" /><br /></td>
+				</tr>
+
+				<tr>
+					<td><b>Telefone: </b></td>
+					<td><input type="text" name="telefone" /><br /></td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Gravar" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
