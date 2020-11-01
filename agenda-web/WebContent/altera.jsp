@@ -17,9 +17,9 @@
 		<hr />
 		<table>
 			<tr>
-				<td><a href="http://localhost:8080/agenda-ramon/">Início</a></td>
-				<td><a href="http://localhost:8080/agenda-ramon/novo.html">Novo</a></td>
-				<td><a href="http://localhost:8080/agenda-ramon/lista.jsp">Lista
+				<td><a href="http://localhost:8080/agenda-web/">Início</a></td>
+				<td><a href="http://localhost:8080/agenda-web/novo.html">Novo</a></td>
+				<td><a href="http://localhost:8080/agenda-web/lista.jsp">Lista
 						de contatos</a></td>
 			</tr>
 		</table>
